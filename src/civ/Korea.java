@@ -1,5 +1,5 @@
 package civ;
 
-public class Korea {
+public class Korea extends Civilizations{
 
 }
