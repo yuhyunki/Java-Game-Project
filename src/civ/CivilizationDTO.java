@@ -4,7 +4,6 @@ public class CivilizationDTO {
 
 	private String name;
 	private int money;
-	private String startingResourceName;
 	private int mushroom;
 	private int ore;
 	private int corn;
@@ -13,18 +12,16 @@ public class CivilizationDTO {
 	/**
 	 * @param name
 	 * @param money
-	 * @param startingResourceName
 	 * @param mushroom
 	 * @param ore
 	 * @param corn
 	 * @param diplomacyPoints
 	 */
-	public CivilizationDTO(String name, int money, String startingResourceName, int mushroom, int ore, int corn,
+	public CivilizationDTO(String name, int money, int mushroom, int ore, int corn,
 			int diplomacyPoints) {
 		super();
 		this.name = name;
 		this.money = money;
-		this.startingResourceName = startingResourceName;
 		this.mushroom = mushroom;
 		this.ore = ore;
 		this.corn = corn;
@@ -47,13 +44,6 @@ public class CivilizationDTO {
 		this.money = money;
 	}
 
-	public String getStartingResourceName() {
-		return startingResourceName;
-	}
-
-	public void setStartingResourceName(String startingResourceName) {
-		this.startingResourceName = startingResourceName;
-	}
 
 	public int getMushroom() {
 		return mushroom;
@@ -85,6 +75,12 @@ public class CivilizationDTO {
 
 	public void setDiplomacyPoints(int diplomacyPoints) {
 		this.diplomacyPoints = diplomacyPoints;
+	}
+
+	@Override
+	public String toString() {
+		return "CivilizationDTO [name=" + name + ", money=" + money + ", mushroom=" + mushroom + ", ore=" + ore
+				+ ", corn=" + corn + ", diplomacyPoints=" + diplomacyPoints + "]";
 	}
 	
 	
