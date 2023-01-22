@@ -12,8 +12,8 @@ public class TurnCounter {
 		boolean over = false;
 		
 		if(turns > 0) {
-			turns--;
 			System.out.println(turns + "턴 남았습니다.");
+			turns--;
 		} else {
 			System.out.println("모든 턴이 마무리 되었습니다.");
 			over = true;

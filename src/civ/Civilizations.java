@@ -26,6 +26,6 @@ public abstract class Civilizations {
 
 	}
 
-	public abstract Object getCiv();
+	public abstract CivilizationDTO getCiv();
 
 }

@@ -27,7 +27,7 @@ public class MyCiv extends Civilizations{
 	}
 
 	@Override
-	public Object getCiv() {
+	public CivilizationDTO getCiv() {
 		// TODO Auto-generated method stub
 		return null;
 	}
