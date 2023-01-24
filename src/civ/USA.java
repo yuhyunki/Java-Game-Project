@@ -1,8 +1,8 @@
 package civ;
 
-public class Brazil extends Civilizations{
+public class USA extends Civilizations{
 
-	private CivilizationDTO civ = new CivilizationDTO("브라질", 0, 200, 100, 100, 0);
+	private CivilizationDTO civ = new CivilizationDTO("미국", 0, 0, 200, 300, 0);
 
 	@Override
 	public CivilizationDTO getCiv() {
@@ -73,6 +73,4 @@ public class Brazil extends Civilizations{
 			return;
 		}
 	}
-
-	
 }
